@@ -1,8 +1,7 @@
    require "pry"
 def count_strings(array)
-  array.count {|element| }
+  array.count {|element|element.String? }
    binding.pry
-    element.String?
   # Return the total number of strings in the provided array using the count enumerable
 end
 
