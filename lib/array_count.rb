@@ -7,9 +7,8 @@ end
 
 def count_empty_strings(array)
   
-  array.count { |element| element.to_s
-  # Return the total number of EMPTY strings in the provided array using the count enumerable
-  binding.pry
-  puts "hello"
+ array.count { |element| element.class == empty}
+  Return the total number of EMPTY strings in the provided array using the count enumerable
+  
   
 end
