@@ -12,6 +12,6 @@ def count_empty_strings(array)
     element.empty?
   # Return the total number of EMPTY strings in the provided array using the count enumerable
   binding.pry
-
+  puts "hello"
   
 end
